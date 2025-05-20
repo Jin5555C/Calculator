@@ -3,7 +3,7 @@
 ## 工夫
 inputのバリデーションは別ファイル。
 
-## 【質問】
+## 【質問①】
 Srcフォルダーにcalculator,student_list,inputUtil、３つのファイルを入れてみましたが、初めに作ったcaluculatorしか動かず。
 
 今回はそれぞれのプロジェクトでファイルを作っていますが、inputUtil.javaを複数のプロジェクトでまたがって使ったりすることは可能ですか？  
@@ -25,3 +25,7 @@ jar cf inpututil.jar InputUtil.class
 javac -cp ./libs/inpututil.jar StudentList.java
 java -cp .:./libs/inpututil.jar StudentList
 ```
+## 【質問②】  
+Gitに入れるファイルはどれがいいでしょうか？  
+ChatGTPに聞いたら、.idea、gradle/wrapper、gradlewとかはGitにいれなくてもOKとなっていたので初めに作ったCalculatorは入れなかったのですが、やっぱり入れてみて聞いてみよう、と思って、他のレポジトリはほかのファイルも入れています。
+どこのファイルをいれるのが一般的か教えてください。
